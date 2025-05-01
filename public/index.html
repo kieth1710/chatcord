@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>JRU Health Consultation Portal</title>
+</head>
+<body>
+  <div class="join-container">
+    <header class="join-header">
+      <div class="logo-container">
+        <i class="fas fa-heartbeat clinic-icon"></i>
+        <h1>JRU Health Consultation Portal</h1>
+      </div>
+    </header>
+    <main class="join-main">
+      <div class="welcome-message">
+        <h2>Welcome to our Online Health Services</h2>
+        <p>Please enter your information to connect with our healthcare professionals.</p>
+      </div>
+      <form action="chat.html">
+        <div class="form-control">
+          <label for="username">Full Name</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your name..."
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label for="room">Select Service</label>
+          <select name="room" id="room">
+            <option value="Doctor">Speak with a Doctor</option>
+            <option value="Nurse">Speak with a Nurse</option>
+            <option value="Appointment">Schedule an Appointment</option>
+            <option value="Consultation">Medical Consultation</option>
+            <option value="Support">Technical Support</option>
+            <option value="Report">File a Report</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Connect Now</button>
+      </form>
+      <div class="clinic-info">
+        <p>Operating Hours: Monday to Friday, 8:00 AM - 5:00 PM</p>
+        <p>Emergency? Please call our hotline: (555) 123-4567</p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Jose Rizal University Medical Clinic. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
